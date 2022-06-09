@@ -1,2 +1,2 @@
-cd ~/proxy_finder && \
+cd ~/workspace/proxy_finder && \
 nohup python3 finder.py --threads 5000 &
