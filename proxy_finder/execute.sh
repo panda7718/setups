@@ -1,1 +1,0 @@
-cd ~/workspace/proxy_finder && python3 ~/workspace/proxy_finder/finder.py --threads 5000 >> ~/workspace/proxy_finder/nohup.out 2>>~/workspace/proxy_finder/nohup.out
